@@ -21,3 +21,5 @@ jobs:
       run: make check
     - name: make distcheck
       run: make distcheck
+- name: Setup C/C++ Compiler
+  uses: rlalik/setup-cpp-compiler@v1.1
