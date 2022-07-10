@@ -1,11 +1,14 @@
 #include<iostream.h>
 #include<conio.h>
-int m=5;
+#include<iomanip.h>
+int m=11;
 int main()
 {
-int m=10;
+int m=15;
 clrscr();
-cout<<::m;
+cout<<setw(10);
+cout<<m<<endl;
+cout<<::m+m;
 getch();
 return 0;
 }
